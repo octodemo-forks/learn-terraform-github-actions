@@ -1,6 +1,10 @@
+# Basic set up for terraform
+
 version: 2
 updates:
-  - package-ecosystem: github-actions
-    directory: /
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "terraform"
+    directory: "/"
     schedule:
-      interval: daily
+      interval: "daily"
